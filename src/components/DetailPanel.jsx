@@ -1,5 +1,5 @@
 import React from 'react';
-import { getParents, getChildren, getSiblings, getMemberById } from '../utils/familyHelpers';
+import { getParents, getChildren, getSiblings } from '../utils/familyHelpers';
 
 const DetailPanel = ({ member, members, onEdit, onDelete, onSelectMember }) => {
   if (!member) {
